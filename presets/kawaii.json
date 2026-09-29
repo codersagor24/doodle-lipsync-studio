@@ -1,0 +1,48 @@
+{
+  "id": "kawaii",
+  "name": "Kawaii / Chibi",
+  "emoji": "✨",
+  "description": "Cute anime sparkle style with dual highlights and pink blush",
+  "eyes": {
+    "shape": "oval_gradient_iris",
+    "left": { "x": -88, "y": -58 },
+    "right": { "x": 88, "y": -58 },
+    "radius": 46,
+    "pupil_radius": 28,
+    "eye_stroke": 3.5,
+    "eye_color": "#ffffff",
+    "pupil_color": "#18181b",
+    "highlight_radius": 10,
+    "highlight_offset": { "x": 9, "y": -11 },
+    "highlight2_radius": 4,
+    "highlight2_offset": { "x": -7, "y": 8 },
+    "has_eyelid_line": false
+  },
+  "mouth": {
+    "shape": "cute_small",
+    "center": { "x": 0, "y": 62 },
+    "base_width": 52,
+    "max_open_height": 42,
+    "mouth_color": "#3b0716",
+    "tongue_color": "#fb7185",
+    "teeth_color": "#ffffff",
+    "stroke_color": "#18181b",
+    "stroke_width": 3.5
+  },
+  "eyebrows": {
+    "enabled": true,
+    "left": { "x": -88, "y": -120 },
+    "right": { "x": 88, "y": -120 },
+    "width": 26,
+    "thickness": 4,
+    "color": "#18181b"
+  },
+  "cheeks": {
+    "enabled": true,
+    "color": "rgba(244, 63, 94, 0.45)",
+    "left": { "x": -116, "y": -8 },
+    "right": { "x": 116, "y": -8 },
+    "radius_x": 18,
+    "radius_y": 10
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "minimalist",
+  "name": "Minimalist Dot-Line",
+  "emoji": "✏️",
+  "description": "Simple modern doodle style with clean dots and single line mouth",
+  "eyes": {
+    "shape": "small_dot",
+    "left": { "x": -70, "y": -60 },
+    "right": { "x": 70, "y": -60 },
+    "radius": 22,
+    "pupil_radius": 0,
+    "eye_stroke": 0,
+    "eye_color": "#111111",
+    "pupil_color": "#111111",
+    "highlight_radius": 3,
+    "highlight_offset": { "x": 4, "y": -4 },
+    "has_eyelid_line": false
+  },
+  "mouth": {
+    "shape": "single_curve",
+    "center": { "x": 0, "y": 80 },
+    "base_width": 80,
+    "max_open_height": 38,
+    "mouth_color": "#111111",
+    "tongue_color": "#ef4444",
+    "teeth_color": "#ffffff",
+    "stroke_color": "#111111",
+    "stroke_width": 4.0
+  },
+  "eyebrows": {
+    "enabled": false
+  },
+  "cheeks": {
+    "enabled": false
+  }
+}

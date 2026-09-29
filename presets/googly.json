@@ -1,0 +1,42 @@
+{
+  "id": "googly",
+  "name": "Classic Googly",
+  "emoji": "🥒",
+  "description": "Talking doodle object style for cucumbers, trees, and axes",
+  "eyes": {
+    "shape": "circle",
+    "left": { "x": -82, "y": -62 },
+    "right": { "x": 82, "y": -62 },
+    "radius": 40,
+    "pupil_radius": 14,
+    "eye_stroke": 4.5,
+    "eye_color": "#ffffff",
+    "pupil_color": "#111111",
+    "highlight_radius": 5,
+    "highlight_offset": { "x": 6, "y": -6 },
+    "has_eyelid_line": true
+  },
+  "mouth": {
+    "shape": "cartoon_open",
+    "center": { "x": 0, "y": 68 },
+    "base_width": 72,
+    "max_open_height": 52,
+    "mouth_color": "#181114",
+    "tongue_color": "#ef4444",
+    "teeth_color": "#ffffff",
+    "stroke_color": "#111111",
+    "stroke_width": 4.5
+  },
+  "eyebrows": {
+    "enabled": true,
+    "left": { "x": -82, "y": -118 },
+    "right": { "x": 82, "y": -118 },
+    "width": 34,
+    "thickness": 5,
+    "color": "#111111"
+  },
+  "cheeks": {
+    "enabled": false,
+    "color": "rgba(255, 100, 100, 0.3)"
+  }
+}

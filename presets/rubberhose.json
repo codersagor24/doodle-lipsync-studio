@@ -1,0 +1,42 @@
+{
+  "id": "rubberhose",
+  "name": "Vintage Rubber-Hose",
+  "emoji": "🎞️",
+  "description": "1930s inkblot animation style with rotating pie-cut eyes",
+  "eyes": {
+    "shape": "pie_cut_circle",
+    "left": { "x": -78, "y": -62 },
+    "right": { "x": 78, "y": -62 },
+    "radius": 52,
+    "pie_angle": 55,
+    "pupil_radius": 0,
+    "eye_stroke": 0,
+    "eye_color": "#111111",
+    "pupil_color": "#111111",
+    "highlight_radius": 0,
+    "highlight_offset": { "x": 0, "y": 0 },
+    "has_eyelid_line": false
+  },
+  "mouth": {
+    "shape": "rubber_hose_curve",
+    "center": { "x": 0, "y": 85 },
+    "base_width": 110,
+    "max_open_height": 55,
+    "mouth_color": "#111111",
+    "tongue_color": "#e85060",
+    "teeth_color": "#ffffff",
+    "stroke_color": "#111111",
+    "stroke_width": 4.5
+  },
+  "eyebrows": {
+    "enabled": true,
+    "left": { "x": -78, "y": -126 },
+    "right": { "x": 78, "y": -126 },
+    "width": 36,
+    "thickness": 6,
+    "color": "#111111"
+  },
+  "cheeks": {
+    "enabled": false
+  }
+}

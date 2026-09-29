@@ -1,0 +1,42 @@
+{
+  "id": "comic",
+  "name": "Retro Comic",
+  "emoji": "💥",
+  "description": "Looney Tunes style with expressive thick eyebrows and visible teeth",
+  "eyes": {
+    "shape": "oval_wide",
+    "left": { "x": -82, "y": -66 },
+    "right": { "x": 82, "y": -66 },
+    "radius": 42,
+    "pupil_radius": 15,
+    "eye_stroke": 4.5,
+    "eye_color": "#ffffff",
+    "pupil_color": "#000000",
+    "highlight_radius": 5,
+    "highlight_offset": { "x": 6, "y": -6 },
+    "has_eyelid_line": true
+  },
+  "mouth": {
+    "shape": "comic_gum",
+    "center": { "x": 0, "y": 72 },
+    "base_width": 84,
+    "max_open_height": 60,
+    "mouth_color": "#180206",
+    "tongue_color": "#dc2626",
+    "teeth_color": "#ffffff",
+    "stroke_color": "#000000",
+    "stroke_width": 5.0
+  },
+  "eyebrows": {
+    "enabled": true,
+    "left": { "x": -82, "y": -126 },
+    "right": { "x": 82, "y": -126 },
+    "width": 42,
+    "thickness": 8,
+    "color": "#000000"
+  },
+  "cheeks": {
+    "enabled": false,
+    "color": "rgba(239, 68, 68, 0.35)"
+  }
+}
