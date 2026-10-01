@@ -15,7 +15,7 @@
 
 *Export Apple ProRes 4444 Alpha, WebM VP9 Alpha, and Chroma-Key Green Screen videos in seconds.*
 
-[Features](#-key-features) • [Quick Start](#-quick-start) • [How to Use](#-step-by-step-user-guide) • [Video Editor Integration](#-video-editor-workflows) • [Python Batch Processing](#-high-volume-batch-processing) • [AI Agent Docs](#-ai-agents-collaboration)
+[Features](#-key-features) • [Quick Start](#-quick-start) • [How to Use](#-step-by-step-user-guide) • [Video Editor Integration](#-video-editor-workflows) • [Python Batch Processing](#-high-volume-batch-processing) • [AI Agent Docs](#-ai-agents-collaboration) • [📜 Conversation History & Handoff](./HANDOFF_AND_CONVERSATION_HISTORY.md)
 
 </div>
 
@@ -160,7 +160,8 @@ For daily high-volume production of 20–50 videos:
 
 This repository was collaboratively designed and developed by a multi-agent team (**Human Creator + Claude Anthropic + Google Gemini Antigravity**).
 
-- **For AI Agents:** Please read **[`AGENTS.md`](./AGENTS.md)** before modifying any files.
+- **Conversation History & Handoff:** Read **[`HANDOFF_AND_CONVERSATION_HISTORY.md`](./HANDOFF_AND_CONVERSATION_HISTORY.md)** for the full chronological conversation log, decisions, and instructions on resuming this project in new sessions.
+- **For AI Agents:** Please read **[`AGENTS.md`](./AGENTS.md)** for operational rules, ownership boundaries, and verification commands.
 - **Architecture Specification:** Review **[`PROJECT_SPEC.md`](./PROJECT_SPEC.md)** and **[`PYTHON_ENGINE_SPEC.md`](./PYTHON_ENGINE_SPEC.md)**.
 - **Shared Canonical Presets:** Found in **`presets/<style_id>.json`**.
 
@@ -170,6 +171,7 @@ This repository was collaboratively designed and developed by a multi-agent team
 
 ```
 doodle-lipsync-studio/
+├── HANDOFF_AND_CONVERSATION_HISTORY.md # Complete conversation history & session handoff
 ├── AGENTS.md                  # Comprehensive guide & contract for AI Agents
 ├── PROJECT_SPEC.md            # Master technical specification
 ├── PYTHON_ENGINE_SPEC.md      # PyCairo & FFmpeg export specification
